@@ -1,0 +1,12 @@
+# Installing:
+
+sudo apt install ettercap-common ettercap-graphical
+
+# Edit /etc/ettercap/etter.conf
+
+[privs]
+ec_uid = 0
+ec_gid = 0
+
+# Run:
+sudo -E ettercap -G
