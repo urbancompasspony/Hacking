@@ -9,8 +9,8 @@ ec_uid = 0
 ec_gid = 0
 
 #       redir_command_on/off
-Uncomment the 2 lines about "linux" "redir_command_on" and "redir_command_off"
-This will break HTTPS!
+Uncomment the 4 lines about "linux" "redir_command_on" and "redir_command_off", for IPV4 and IPV6!
+This will break HTTPS! (If not IPV6, will generate FATAL ERROR on ettercap)
 
 # Edit /etc/ettercap/etter.dns:
 Put inside all websites you want to catch. For example:
