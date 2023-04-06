@@ -12,7 +12,7 @@ ec_gid = 0
 Uncomment the 2 lines about "linux" "redir_command_on" and "redir_command_off"
 This will break HTTPS!
 
-# Create a file /etc/ettercap/etter.dns:
+# Edit /etc/ettercap/etter.dns:
 Put inside all websites you want to catch. For example:
 acompanywebsite.com A 127.0.0.1
 
