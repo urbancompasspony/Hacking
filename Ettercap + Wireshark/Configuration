@@ -8,5 +8,15 @@ sudo apt install ettercap-common ettercap-graphical
 ec_uid = 0
 ec_gid = 0
 
+#       redir_command_on/off
+Uncomment the 2 lines about "linux" "redir_command_on" and "redir_command_off"
+This will break HTTPS!
+
+# Create a file /etc/ettercap/etter.dns:
+Put inside all websites you want to catch. For example:
+acompanywebsite.com A 127.0.0.1
+
 # Run:
 sudo -E ettercap -G
+
+For DoS Attack, use Plugin dos_attack
