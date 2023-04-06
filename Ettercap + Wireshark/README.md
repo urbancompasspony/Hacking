@@ -1,7 +1,7 @@
-# Ettercap
+# How to Use It
 
-## Configuring
+Install Wireshark and Ettercap packages.
 
-# Wireshark
+Run Ettercap and set a target.
 
-## WIP
+Run Wireshark to catch all traffic through target
