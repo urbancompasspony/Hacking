@@ -13,5 +13,7 @@ docker-compose -f cert-sync.yml up
 docker-compose -f scap-sync.yml up
 docker-compose -f gvmd-data-sync.yml up
 
+Access: https://localhost:8080
+
 Based on:
 https://github.com/admirito/gvm-containers
