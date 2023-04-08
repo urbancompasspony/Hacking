@@ -13,6 +13,8 @@ docker-compose -f cert-sync.yml up
 docker-compose -f scap-sync.yml up
 docker-compose -f gvmd-data-sync.yml up
 
+docker-compose up
+
 Access: https://localhost:8080
 
 Based on:
