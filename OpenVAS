@@ -1,0 +1,17 @@
+# OpenVAS 9, now the new version 10 is renamed to GVM (Greenbone Vulnerability Manager), a FOSS solution under Greenbone proprietary system.
+
+# GVM is more like a Kali Linux under a server form that can do automated pentest tasks!
+
+# To install (docker):
+
+git clone https://github.com/admirito/gvm-containers.git
+
+cd gvm-containers
+
+docker-compose -f nvt-sync.yml up
+docker-compose -f cert-sync.yml up
+docker-compose -f scap-sync.yml up
+docker-compose -f gvmd-data-sync.yml up
+
+Based on:
+https://github.com/admirito/gvm-containers
