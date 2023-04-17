@@ -13,18 +13,15 @@ sudo systemctl start postgresql.service
 sudo -u postgres createuser user -W
 Create a database (for example, metasploit4):
 
-1
+
 sudo -u postgres createdb -O user metasploit4
 Now log in to Metasploit:
 
-1
 msfconsole
+
 and execute there:
 
-1
-2
 db_connect user@metasploit4
-db_rebuild_cache
 
 ~/.msf4/database.yml
 
@@ -38,9 +35,9 @@ production:
  pool: 5
  timeout: 5
  
- sudo msfrpcd -U msf -P 1234 -S
- 
- export MSF_DATABASE_CONFIG="`ls ~/.msf4/database.yml`"
+sudo msfrpcd -U msf -P 1234 -S
 
- armitage
+export MSF_DATABASE_CONFIG="`ls ~/.msf4/database.yml`"
 
+$ msfdb init
+$ sudo armitage
