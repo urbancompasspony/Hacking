@@ -41,3 +41,7 @@ export MSF_DATABASE_CONFIG="`ls ~/.msf4/database.yml`"
 
 $ msfdb init
 $ sudo armitage
+
+If unexpected end of file, try:
+Port: 55553
+localhost instead of 127.0.0.1
