@@ -1,5 +1,5 @@
 
 # ONLY FOR AMD64!
-# DOESN'T WORK ON RASPBERRY PI
+# BUILD IT FOR RASPBERRY PI USE!
 
 docker run --rm -it metasploitframework/metasploit-framework ./msfconsole
