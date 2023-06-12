@@ -10,6 +10,9 @@ docker run --rm -it metasploitframework/metasploit-framework ./msfconsole
 # To BUILD:
 cd $HOME; git clone https://github.com/rapid7/metasploit-framework
 cd metasploit-framework
+
+Edit Dockerfile, remove mingw-w64-gcc, is used on Windows Builds.
+
 docker build -t metasploitframework/metasploit-framework .
 docker run --rm -it metasploitframework/metasploit-framework ./msfconsole
 
