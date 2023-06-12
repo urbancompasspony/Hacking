@@ -1,3 +1,5 @@
+# Checkout docker version first!
+
 $ sudo apt-get remove ruby1.9.1 libruby1.9.1
 $ dpkg -l | grep ruby
 $ sudo apt-get purge ruby1.9.1 ruby1.8
