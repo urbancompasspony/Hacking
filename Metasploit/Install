@@ -8,7 +8,7 @@ $ rbenv rehash
 --
 $ apt-get install git ruby rubygems ruby-pg postgresql-common libpq-dev libpcap0.8 bundler ruby-pcaprub libpcap0.8 libpcap0.8-dev libsqlite3-dev 
 $ sudo gem install bundler
-$ cd $HOME; git clone git://github.com/rapid7/metasploit-framework
+$ cd $HOME; git clone https://github.com/rapid7/metasploit-framework
 $ cd metasploit-framework; ./msfupdate
 $ bundle install
 ...
