@@ -13,11 +13,11 @@ cd metasploit-framework
 
 Edit Dockerfile, remove mingw-w64-gcc, is used on Windows Builds.
 
-docker build -t metasploitframework/metasploit-framework .
-docker run --rm -it metasploitframework/metasploit-framework ./msfconsole
+docker build -t urbancompasspony/metasploit-arm .
+docker run --rm -it urbancompasspony/metasploit-arm ./msfconsole
 
 # To PUSH:
-docker login registry.gitlab.com
+docker login
 docker push urbancompasspony/metasploit-arm:latest
 
 # To USE:
