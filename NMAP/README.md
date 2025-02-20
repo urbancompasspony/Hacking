@@ -1,5 +1,3 @@
 # Common Commands
 
-## Test
-
-a
+nmap -n -sn ADDRESS
